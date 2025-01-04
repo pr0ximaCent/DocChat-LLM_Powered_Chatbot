@@ -15,7 +15,7 @@ def configure_api_key(api_key_name):
     # Configure the API key
     api_key = st.secrets[api_key_name]
 
-    # Create an instance of the Helper class
+   
     helper = Helper()
 
     # Check if the API key is set
