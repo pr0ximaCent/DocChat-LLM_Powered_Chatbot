@@ -76,9 +76,7 @@ def clear_cache():
 
 
 def process_prompt():
-    if st.sidebar.button("🧹 Clear Chat", use_container_width=True):
-        st.session_state.chat_dialog_history = []
-    st.sidebar.button("📜 New Chat", use_container_width=True, on_click=clear_cache)
+
 
     langchain_local = LangchainLocal(st.session_state)
     # Display chat history
