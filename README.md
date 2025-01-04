@@ -126,4 +126,32 @@ To use Ollama in DocChat, follow these steps:
    - Download the `nomic-embed-text` model (required for embeddings):
      ```bash
      ollama pull nomic-embed-text
+     ```
+
+   - Download the `openchat` model (for language model functionality):
+     ```bash
+     ollama pull openchat
+     ```
+
+---
+
+## **Usage**
+
+### **1. Set API Keys**
+
+If you're using Google Gemini or Groq, obtain the necessary API keys and securely store them in the `src/docchat/.streamlit/secrets.toml` file or upload them through the chatbot interface.
+
+---
+
+### **2. Run the Application**
+
+- **With Streamlit:**
+  ```bash
+  cd src/docchat
+  streamlit run chatbot.py
+  ```
+
+- **Using Rye:**
+  ```bash
+  cd src/docchat
 
