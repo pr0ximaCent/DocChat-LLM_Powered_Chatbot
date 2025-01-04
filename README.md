@@ -42,8 +42,8 @@ cd DocChat
 
 ---
 ### **Using Rye (Recommended)**
-
-1. Install the Rye package manager: [Installation Guide](https://rye-up.com/guide/installation/).
+ [Installation Guide](https://rye-up.com/guide/installation/).
+1. Install the Rye package manager:
 
 2. Sync the project:
 
