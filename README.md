@@ -41,4 +41,33 @@ cd DocChat
 ```
 
 ---
+### **Using Rye (Recommended)**
+
+1. Install the Rye package manager: [Installation Guide](https://rye-up.com/guide/installation/).
+
+2. Sync the project:
+
+   ```bash
+   rye sync
+   ```
+
+---
+
+### **Using venv**
+
+1. Create a virtual environment:
+
+   ```bash
+   python -m venv docchat-env
+   ```
+
+2. Activate the virtual environment:
+
+   - On Linux/MacOS:
+     ```bash
+     source docchat-env/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     docchat-env\\Scripts\\activate
 
