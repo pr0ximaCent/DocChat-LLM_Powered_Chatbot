@@ -110,6 +110,59 @@ Rename the `secrets_example.toml` file to `secrets.toml` in the `src/docchat/.st
 mv src/docchat/.streamlit/secrets_example.toml src/docchat/.streamlit/secrets.toml
 ```
 
+
+---
+### **Supported LLM Models**
+
+#### **1. Ollama**
+- **Description**: Ollama is an advanced model optimized for conversational AI tasks. It uses transformer-based architectures, fine-tuned for specific dialogue use cases.
+- **Key Features**:
+  - Small model sizes for efficient deployments.
+  - Optimized for embeddings using the `nomic-embed-text` model.
+  - Open-source and extensible for custom use cases.
+- **Usage in DocChat**:
+  - Powers embeddings for document processing.
+  - Can function as a conversational agent using the `openchat` model.
+ 
+  ![Ollama](https://github.com/user-attachments/assets/1b9555a1-7099-4a9d-bf35-08196a3c1f0f)
+
+
+#### **2. Groq**
+- **Description**: Groq models leverage hardware acceleration for high-performance inference. The architecture is built to handle complex tasks in minimal time.
+- **Key Features**:
+  - Designed for low-latency responses.
+  - Supports large datasets with high throughput.
+  - Ideal for enterprise-level applications requiring real-time answers.
+- **Usage in DocChat**:
+  - Provides fast and accurate answers for document-intensive workflows.
+
+#### **3. Google Gemini**
+- **Description**: Gemini is Google's advanced multi-modal model capable of understanding and generating text with enhanced accuracy and depth.
+- **Key Features**:
+  - Incorporates multi-modal input, allowing better context understanding.
+  - High accuracy for technical and domain-specific queries.
+  - Integrated with GooglePalm embeddings for document comprehension.
+- **Usage in DocChat**:
+  - Ideal for handling complex, technical documents and multi-document scenarios.
+![Gemini](https://github.com/user-attachments/assets/17ce7373-a330-4753-b979-88a238bc4432)
+
+---
+
+### **Embedding Models**
+
+#### **1. Ollama Embeddings**
+- Embedding engine fine-tuned for semantic search and document retrieval tasks.
+- Used in DocChat for generating high-quality vector embeddings of text.
+
+#### **2. GooglePalm Embeddings**
+- Embedding model from Google's Gemini platform.
+- Specializes in extracting meaningful features from complex, multi-modal datasets.
+
+---
+
+
+
+
 ---
 
 ## **Ollama Installation**
