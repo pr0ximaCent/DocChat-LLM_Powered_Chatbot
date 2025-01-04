@@ -1,6 +1,6 @@
 # **DocChat: Chat with Your Documents**
 
-DocChat is an advanced chatbot that allows you to interact with your documents (PDF, TXT, DOCX, ODT, PPTX, CSV, etc.) in a natural and conversational manner. By leveraging the power of LangChain, Ollama, Groq, Gemini, and Streamlit, DocChat delivers an intuitive and informative user experience.
+DocChat is an advanced chatbot that allows you to interact with your documents PDF, TXT, DOCX etc in a natural and conversational manner. By leveraging the power of LangChain, Gemini, Ollama & Streamlit, DocChat delivers an intuitive and informative user experience.
 
 ---
 
