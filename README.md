@@ -144,10 +144,10 @@ mv src/docchat/.streamlit/secrets_example.toml src/docchat/.streamlit/secrets.to
   - Integrated with GooglePalm embeddings for document comprehension.
 - **Usage in DocChat**:
   - Ideal for handling complex, technical documents and multi-document scenarios.
-![Gemini](https://github.com/user-attachments/assets/17ce7373-a330-4753-b979-88a238bc4432)
+
 
 ---
-
+![Gemini](https://github.com/user-attachments/assets/17ce7373-a330-4753-b979-88a238bc4432)
 ### **Embedding Models**
 
 #### **1. Ollama Embeddings**
