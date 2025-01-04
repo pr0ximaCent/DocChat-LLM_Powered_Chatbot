@@ -70,4 +70,33 @@ cd DocChat
    - On Windows:
      ```bash
      docchat-env\\Scripts\\activate
+     ```
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+### **Using Conda**
+
+1. Create a Conda environment:
+
+   ```bash
+   conda create -n docchat-env python=3.12
+   ```
+
+2. Activate the Conda environment:
+
+   ```bash
+   conda activate docchat-env
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   conda install --file requirements.txt
+   ```
 
