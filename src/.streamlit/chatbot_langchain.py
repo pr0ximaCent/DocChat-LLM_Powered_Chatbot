@@ -275,9 +275,9 @@ def process_tabs_content(documents=None, url=None, youtube_url=None):
         disabled=st.session_state.error,
     ):
         st.toast(
-            """Hang tight! the documents are being processed,
-                it might take several minutes depending on the size of your documents""",
-            icon="🤖",
+            """Hang tight! documents being processed,
+                might take longer depending on the size of docs""",
+            icon="🧾",
         )
         with st.spinner("Processing..."):
             if (
