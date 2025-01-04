@@ -100,3 +100,30 @@ cd DocChat
    conda install --file requirements.txt
    ```
 
+---
+
+## **Configuration**
+
+Rename the `secrets_example.toml` file to `secrets.toml` in the `src/docchat/.streamlit/` directory:
+
+```bash
+mv src/docchat/.streamlit/secrets_example.toml src/docchat/.streamlit/secrets.toml
+```
+
+---
+
+## **Ollama Installation**
+
+To use Ollama in DocChat, follow these steps:
+
+1. **Install Ollama:**
+   - Visit the official Ollama website for installation instructions: [Ollama Download](https://ollama.com/download).
+
+2. **Download Ollama Models:**
+
+   Open your terminal and run the following commands to download the necessary models:
+
+   - Download the `nomic-embed-text` model (required for embeddings):
+     ```bash
+     ollama pull nomic-embed-text
+
