@@ -13,3 +13,32 @@ DocChat is an advanced chatbot that allows you to interact with your documents P
 - **Embedding Models:** Use Ollama Embeddings or GooglePalm Embeddings to improve document understanding.
 - **User-Friendly Interface:** A clean and simple interface powered by Streamlit for seamless interactions.
 
+---
+
+## **Installation**
+
+### **Prerequisites**
+
+- Python 3.10 or higher
+- A virtual environment (recommended)
+
+---
+
+### **Clone the Repository**
+
+Clone the DocChat repository from GitHub:
+
+```bash
+git clone https://github.com/pr0ximaCent/DocChat-LLM_Powered_Chatbot.git
+```
+
+---
+
+### **Navigate to the Working Directory**
+
+```bash
+cd DocChat
+```
+
+---
+
