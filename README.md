@@ -154,4 +154,32 @@ If you're using Google Gemini or Groq, obtain the necessary API keys and securel
 - **Using Rye:**
   ```bash
   cd src/docchat
+  rye run streamlit run chatbot.py
+  ```
+
+---
+
+### **3. Upload Documents**
+
+In the Streamlit interface:
+- Upload the documents you want to chat with.
+- Click the **"Process"** button to analyze the uploaded files.
+
+---
+
+### **4. Start Chatting**
+
+Once the documents are processed:
+- Enter your questions in the chat input field.
+- The chatbot will analyze your documents and provide precise, contextual answers.
+
+---
+
+## **Additional Notes**
+
+- For optimal performance, ensure your system has sufficient resources (CPU, RAM) for document processing and LLM computations.
+- Use a GPU-enabled environment, if available, to accelerate processing and response time.
+- The chatbot's performance may vary depending on the complexity and length of your documents.
+
+---
 
